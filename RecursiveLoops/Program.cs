@@ -151,7 +151,7 @@ namespace RecursiveLoops
             /*
              * Here we see the addition of the 'args' parameter into the 
              * 'action' scope.  However, since it is passed-by-value there 
-             * is not way for changes made within the 'action' scope to 
+             * is no way for changes made within the 'action' scope to 
              * propogate back into this scope (and thus into the scope of 
              * the next iteration!
              */
